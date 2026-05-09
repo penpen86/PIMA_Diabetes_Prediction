@@ -52,7 +52,7 @@ gb_model = GradientBoostingClassifier(random_state=42)
 
 # Define hyperparameter grid
 param_grid = {
-    'gradientboostingclassifier__n_estimators': [75, 100, 125],
+    'gradientboostingclassifier__n_estimators': [75, 100, 125, 200],
     'gradientboostingclassifier__max_depth': [2, 3, 4],
     'gradientboostingclassifier__subsample': [0.5, 0.6]
 }
